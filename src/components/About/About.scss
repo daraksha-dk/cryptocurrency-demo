@@ -1,0 +1,58 @@
+.about {
+  width: 90vw;
+  height: 90vh;
+  position: relative;
+  padding: 10px;
+  margin: 100px;
+  grid-template-rows: 1fr 1fr 1fr;
+  .up-row {
+    display: flex;
+  }
+  .down-row {
+    display: flex;
+  }
+  @mixin boxes {
+    background-color: red;
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #one {
+    @include boxes;
+  }
+  .bit {
+    width: 60px;
+    height: 70px;
+  }
+  .eos {
+    width: 60px;
+    height: 70px;
+  }
+  .eth {
+    width: 60px;
+    height: 70px;
+  }
+  .lit {
+    width: 60px;
+    height: 70px;
+  }
+  .cash {
+    width: 60px;
+    height: 70px;
+  }
+  .rip {
+    width: 60px;
+    height: 70px;
+  }
+  .about-text {
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}

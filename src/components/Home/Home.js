@@ -17,13 +17,15 @@ const Home = () => {
             Typewritter.typeString(
               "Enabling simple, real-time, and secure money transfers!"
             )
-              .pauseFor(2000)
+              .pauseFor(1000)
               .deleteAll()
               .start();
           }}
         />
       </div>
-      <button className="read-btn">Read More</button>
+      <div class="vertical-center">
+        <button className="read-btn">Read More</button>
+      </div>
     </div>
   );
 };
