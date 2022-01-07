@@ -1,8 +1,20 @@
+.contact {
+  background-color: gray;
+}
+
 .form {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 60vw;
+  position: relative;
+  height: 90vh;
+  background: radial-gradient(38.2% 50% at 50% 50%, #fff 0%, #fff 100%);
+  box-shadow: inset 1px 1px 40px white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 240px;
+  background-color: white;
 }
 
 .form > h1 {
@@ -43,7 +55,7 @@ textarea:focus {
 .form > button {
   padding: 20px;
   border: none;
-  background-color: rgb(2, 2, 110);
+  background-color: red;
   font-weight: 500;
   font-size: 20px;
   border-radius: 3px;
@@ -54,5 +66,9 @@ textarea:focus {
 }
 
 .form > button:hover {
-  background-color: rgb(0, 0, 196);
+  background-color: red;
+}
+.btn {
+  width: 10vw;
+  margin: 10px;
 }
